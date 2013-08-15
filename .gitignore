@@ -1,0 +1,6 @@
+*.o
+cosmos
+cosmos-debug
+derelict
+lib
+*.d.deps
