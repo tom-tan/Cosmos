@@ -24,6 +24,15 @@ It is inspired by Chaos which is a game for Windows.
 $ make
 ```
 
+## Rules
+
+* Three (horizontal, vertical and aslant) consective same faces will be vanished.
+* Each face can be lotated as the following sequence:
+  - Smile (Yellow)
+  - Smile-Angry (Yellow on the left side, and red on the right side)
+  - Angry (Red)
+  - Angry-Smile (Red on the left side, and yellow on the right side)
+
 ## How to play
 
 ```
@@ -37,19 +46,11 @@ $ make
 * r: Resume
 * q: Quit
 
-## Rules
-
-* Three (horizontal, vertical and aslant) consective same faces will be vanished.
-* Each face can be lotated as the following sequence:
-  - Smile (Yellow)
-  - Smile-Angry (Yellow on the left side, and red on the right side)
-  - Angry (Red)
-  - Angry-Smile (Red on the left side, and yellow on the right side)
-
 ## Notice
 
 * Poor documentation
 * No sound
 * Quit when game is over
+* Chaotic source codes
 * I cannot find a link to the original Chaos.
   Please let me know if you know the link to Chaos.
