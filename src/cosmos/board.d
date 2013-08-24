@@ -1,7 +1,6 @@
 module cosmos.board;
 
 import derelict.sdl2.sdl;
-import derelict.sdl2.ttf;
 
 import cosmos.resources;
 import cosmos.canvas;
@@ -45,17 +44,6 @@ auto otherSize(Direction d)
     case Dummy:
         assert(false);
     }
-}
-
-static this()
-{
-    DerelictSDL2ttf.load();
-    enforceTTF(TTF_Init() != -1);
-}
-
-static ~this()
-{
-    TTF_Quit();
 }
 
 class Board

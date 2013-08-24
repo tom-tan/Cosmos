@@ -2,7 +2,6 @@ module cosmos.exception;
 
 import derelict.sdl2.sdl;
 import derelict.sdl2.image;
-import derelict.sdl2.ttf;
 
 import std.exception;
 import std.conv;
@@ -25,15 +24,5 @@ class IMGException : Exception
     }
 }
 
-class TTFException : Exception
-{
-    this(string msg, string file = null, size_t line = 0)
-    {
-        auto s = TTF_GetError();
-        super(msg~"("~s.to!string()~")", file, line);
-    }
-}
-
 alias enforceSDL = enforceEx!SDLException;
 alias enforceIMG = enforceEx!IMGException;
-alias enforceTTF = enforceEx!TTFException;
