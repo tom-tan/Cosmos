@@ -170,7 +170,6 @@ class Board
 private:
     auto posToIndex(Piece ch)
     {
-        import std.typecons;
         int x = ch.x/Face.width;
         int y = ch.y/Face.height;
         return Pos(x, y);
