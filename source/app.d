@@ -1,5 +1,3 @@
-module simplesdl2;
-
 import derelict.sdl2.sdl;
 
 import cosmos.exception;
