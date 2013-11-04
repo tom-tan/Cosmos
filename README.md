@@ -3,7 +3,6 @@ Cosmos is tetris like game (落ちゲー).
 
 It is inspired by Chaos which is a game for Windows.
 
-
 ## Runtime requirements
 
 * SDL 2.0
@@ -11,17 +10,12 @@ It is inspired by Chaos which is a game for Windows.
 
 ## Build requirements
 * DMD
-* Derelict
+* [DUB](https://github.com/rejectedsoftware/dub)
+* [Derelict](https://github.com/aldacron/Derelict3) (DUB will automatically install it)
 
 ### How to compile
 
-* Locate Derelict sources to /path/to/cosmosdir/derelict
-* Locate Derelict library files (.a) to /path/to/cosmosdir/lib
-* Run make:
-
-```
-$ make
-```
+* run `dub build` in the source directory.
 
 ## Rules
 

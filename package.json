@@ -1,0 +1,13 @@
+{
+	"name": "cosmos",
+	"description": "Tetris like game (落ちゲー) inspired by Chaos",
+	"homepage": "https://github.com/tom-tan/Cosmos",
+	"copyright": "Copyright 2013, Tomoya Tanjo",
+	"authors": [
+		"Tomoya Tanjo"
+	],
+	"dependencies": {
+		"derelict": "~master"
+	},
+	"libs": [ "dl" ],
+}
