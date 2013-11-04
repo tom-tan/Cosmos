@@ -1,8 +1,6 @@
-#!/usr/bin/env rdmd -Isrc -L-Llib
 module simplesdl2;
 
 import derelict.sdl2.sdl;
-import derelict.sdl2.ttf;
 
 import cosmos.exception;
 import cosmos.window;
@@ -13,14 +11,6 @@ import cosmos.resources;
 import cosmos.game;
 
 import std.stdio;
-
-version(Posix)
-{
-    // リンクの順番に注意!
-    pragma(lib, "DerelictSDL2");
-    pragma(lib, "DerelictUtil");
-    pragma(lib, "dl");
-}
 
 @property auto toMessage(in SDL_Event ev)
 in {
